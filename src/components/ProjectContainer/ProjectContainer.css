@@ -6,8 +6,11 @@
   transition: transform 0.2s linear;
 }
 
+
 .project:hover {
   transform: translateY(-7px);
+  border-color: orange;
+  border-width: 10px;
 }
 
 .project__description {

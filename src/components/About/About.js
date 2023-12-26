@@ -1,5 +1,7 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import TwitterIcon from '@material-ui/icons/Twitter';
+import InstagramIcon from '@material-ui/icons/Instagram';
 import { about } from '../../portfolio';
 import img from '../../akash_image.jpg';
 import './About.css';
@@ -10,24 +12,23 @@ const About = () => {
   return (
     
     <div className="about1" id="About">
-    <div className='about center'>
+    <div className='about'>
       {name && (
         <h1>
-          Hi, I am <span className='about__name'>{name}.</span>
+          Hi, I am <span className='about__name font-semibold'>{name}.</span>
         </h1>
       )}
       
       <h2 className='about__role'>
       <h2 className="role">Frontend Developer and UI/UX Designer.</h2>
-      {/* <div style={{height:"100px"}}><img src={img} alt="ph1" className="image1" style={{height:"40px",width:"40px"}}/></div> */}
       </h2>
       
       <p className='about__desc'>{description && description}</p>
 
-      <div className='about__contact center'>
+      <div className='flex text-left justify-start rounded-lg mt-10 mb-10'>
         {resume && (
           <a href={resume}>
-            <span type='button' className='btn btn--outline'>
+            <span type='button' className='btn btn--outline rounded-lg  text'>
               Resume
             </span>
           </a>
@@ -41,26 +42,40 @@ const About = () => {
                 aria-label='github'
                 className='link link--icon'
               >
-                <GitHubIcon />
+                <GitHubIcon sx={{color:"blue"}}/>
               </a>
             )}
-
             {social.linkedin && (
               <a
                 href={social.linkedin}
                 aria-label='linkedin'
                 className='link link--icon'
               >
-                <LinkedInIcon />
+                <LinkedInIcon sx={{color:"blue"}}/>
+              </a>
+            )}
+            {social.linkedin && (
+              <a
+                href={social.linkedin}
+                aria-label='linkedin'
+                className='link link--icon'
+              >
+                <TwitterIcon sx={{color:"blue"}}/>
+              </a>
+            )}
+            {social.linkedin && (
+              <a
+                href={social.linkedin}
+                aria-label='linkedin'
+                className='link link--icon'
+              >
+                <InstagramIcon sx={{color:"blue"}}/>
               </a>
             )}
           </>
         )}
       </div>
       
-    </div>
-    <div className='about center'>
-    <img src={img} alt="ph1" className="image"/>
     </div>
     </div>
     

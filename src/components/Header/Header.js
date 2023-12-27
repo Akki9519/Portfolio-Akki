@@ -9,15 +9,19 @@ const Header = () => {
   return (
     <header className='header center z-30 h-16'>
       <img src={Alogo}  alt="logo" className='h-16 w-20'/>
+
       <h3 className="head1">
-        {homepage ? (
+      <div className="link font-semibold"> {title}</div>
+     
+        {/* {homepage ? (
           <a href={homepage} className='link font-semibold'>
             {title}
           </a>
         ) : (
           title
-        )}
+        )} */}
       </h3>
+
       <Navbar />
     </header>
   )

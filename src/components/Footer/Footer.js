@@ -2,7 +2,7 @@ import './Footer.css'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import TwitterIcon from '@material-ui/icons/Twitter';
-import InstagramIcon from '@material-ui/icons/Instagram';
+// import InstagramIcon from '@material-ui/icons/Instagram';
 import CopyrightIcon from '@mui/icons-material/Copyright';
 
 const Footer = () => (
@@ -15,7 +15,7 @@ const Footer = () => (
       <h3 className='text-white'>Akash kesharwani</h3> 
     </a>
     <h6 className='mt-5 text-white'><CopyrightIcon/>Copyright 2023 Akash Kesharwani. All Rights Reserved.</h6>
-    <div className='text-white'><GitHubIcon/><LinkedInIcon/><TwitterIcon/><InstagramIcon/></div>
+    <div className='text-white'><GitHubIcon style={{marginRight:"10px"}}/><LinkedInIcon style={{marginRight:"10px"}}/><TwitterIcon/></div>
   </footer>
 )
 

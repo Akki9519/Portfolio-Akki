@@ -8,9 +8,9 @@ function Experience() {
       <div className="qualify">
           <h3 className='font-semibold'>AGM Global Solution Private Limited,Ludhiana</h3>
           <h4>Junior Software Developer</h4>
-          <h5>Working as a Junior Software Developer.Worked on React,React-Native,JavaScript,HTML,CSS and many more.</h5>
+          <h5>Working as a Junior Software Developer. Worked on React,React-Native,JavaScript,TypeScript,HTML,CSS and many more.</h5>
            <h5>Worked on both Web Designing and Development.</h5>
-          <h6 className='font-medium'>9 May 2023 - Present</h6>    
+          <h6 className='font-medium'> May 2023 - Present</h6>    
       </div>
       <div className="qualify">
           <h3 className='font-semibold'>Imocha</h3>

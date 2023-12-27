@@ -7,9 +7,9 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Akash Kesharwani',
-  role: 'Frontend Developer and UI/UX Designer',
+  role: 'Frontend Developer & UI/UX Designer',
   description:
-  'I am a skilled Frontend Developer and UI/UX Designer.I have a strong foundation in HTML5, CSS3, JavaScript, React Js, and MYSQL. Additionally, I possess proficiency in using libraries such as Tailwind CSS, Material UI, Bootstrap, and many more. My understanding of Object-Oriented Programming concepts is also robust.My ability to solve problems efficiently is one of my greatest strengths.',
+  'I am a skilled Frontend Developer & UI/UX Designer.I have a strong foundation in HTML5, CSS3, JavaScript, React Js,React Native and MYSQL. Additionally, I possess proficiency in using libraries such as Tailwind CSS, Material UI, Bootstrap, and many more. My understanding of Object-Oriented Programming concepts is also robust. My ability to solve problems efficiently is one of my greatest strengths.',
   resume: 'https://drive.google.com/file/d/1r8P9ggctr0XrXXX9wrSrIcCRGXwwHNv4/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/akash-kesharwani-8b0190225/',
@@ -18,23 +18,29 @@ const about = {
 }
 
 const projects = [
+  {
+    name: 'Pro Tennis- Sport Management Project ',
+    description:
+      'This is the client project of AGM Global Solution Private Limited.It contain the management of booking of court,coaches and user,handle the notification and send email to user.Booked the court with vacant court by vacant coaches and many more.',
+    stack: ['HTML','CSS3','TYPESCRIPT','Node JS','Mongo DB','MicroService Architecture'],
+  
+  },
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Fast Career',
+    name: 'Fast Career-Career Related Project',
     description:
-      'These app will give acces of main webpage after proper authentication.In homepage you can play games and make todolist and do calculation. ',
-    stack: ['Node', 'React','HTML','CSS','JavaScript'],
+      'It is the personal project where user can see all the opening job of any company for all role.It show detaill of all job and give the authorithy to update the detail of job and add the new job.',
+    stack: ['Node', 'React','HTML','CSS','JavaScript','Monolithic Architecture'],
     sourceCode: 'https://github.com/Akki9519/Career',
     livePreview: '',
   },
   {
-    name: 'Quiz App',
+    name: 'Pro Tennis Mobile Application',
     description:
-      'Created a web based application that allows organizer to organising an online quiz.App uses React Js and API.App also provide the score gain by participants.',
-    stack: ['Express Js', 'Handlebars', 'HTML','Passport'],
-    sourceCode: 'https://github.com/Atu77l/Quiz-App2',
-    livePreview: 'http://quiz87.herokuapp.com/',
+      'This is the client project of AGM Global Solution Private Limited.It contain the management of booking of court,coaches and user,handle the notification and send email to user.Booked the court with vacant court by vacant coaches and many more.',
+    stack: ['HTML','CSS3','TYPESCRIPT','React Native','MicroService Architecture'],
+  
   },
 ]
 
@@ -44,15 +50,18 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
+  'TypeScript',
   'C++',
   'C',
   'React',
   'React-Native',
    'Node Js',
+   'Next Js',
   'Data Structure and Algorithm',
   'Computer Network',
   'Operating System',
   'Git',
+  'BitBucket',
   'Cloud Computing',
   'DBMS',
   'SQL',

@@ -20,7 +20,7 @@ const About = () => {
       )}
       
       <h2 className='about__role'>
-      <h2 className="role">Frontend Developer and UI/UX Designer.</h2>
+      <h2 className="role">Frontend Developer & UI/UX Designer.</h2>
       </h2>
       
       <p className='about__desc'>{description && description}</p>
@@ -63,7 +63,7 @@ const About = () => {
                 <TwitterIcon sx={{color:"blue"}}/>
               </a>
             )}
-            {social.linkedin && (
+            {/* {social.linkedin && (
               <a
                 href={social.linkedin}
                 aria-label='linkedin'
@@ -71,7 +71,7 @@ const About = () => {
               >
                 <InstagramIcon sx={{color:"blue"}}/>
               </a>
-            )}
+            )} */}
           </>
         )}
       </div>

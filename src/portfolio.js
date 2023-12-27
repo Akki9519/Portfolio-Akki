@@ -21,7 +21,7 @@ const projects = [
   {
     name: 'Pro Tennis- Sport Management Project ',
     description:
-      'This is the client project of AGM Global Solution Private Limited.It contain the management of booking of court,coaches and user,handle the notification and send email to user.Booked the court with vacant court by vacant coaches and many more.',
+      'This is a client project of AGM Global Solution Private Limited, involving the management of court, coach, and user bookings. It includes handling notifications and sending emails to users. The system is designed to book courts with available coaches, ensuring that the court and coach are vacant. Additionally, it incorporates various other functionalities to enhance the overall user experience.',
     stack: ['HTML','CSS3','TYPESCRIPT','Node JS','Mongo DB','MicroService Architecture'],
   
   },
@@ -30,18 +30,11 @@ const projects = [
   {
     name: 'Fast Career-Career Related Project',
     description:
-      'It is the personal project where user can see all the opening job of any company for all role.It show detaill of all job and give the authorithy to update the detail of job and add the new job.',
+      'This is a personal project where users can access comprehensive information about job openings across various companies and roles. The platform displays detailed information for each job and empowers users with the authority to update existing job details and add new job listings. It serves as a centralized hub for job seekers to stay informed and engaged in the dynamic landscape of employment opportunities.',
     stack: ['Node', 'React','HTML','CSS','JavaScript','Monolithic Architecture'],
     sourceCode: 'https://github.com/Akki9519/Career',
     livePreview: '',
-  },
-  {
-    name: 'Pro Tennis Mobile Application',
-    description:
-      'This is the client project of AGM Global Solution Private Limited.It contain the management of booking of court,coaches and user,handle the notification and send email to user.Booked the court with vacant court by vacant coaches and many more.',
-    stack: ['HTML','CSS3','TYPESCRIPT','React Native','MicroService Architecture'],
-  
-  },
+  }
 ]
 
 const skills = [

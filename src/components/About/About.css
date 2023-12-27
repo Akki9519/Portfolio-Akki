@@ -70,3 +70,8 @@
   flex-direction: row;
 }
 
+.role{
+  color:orange;
+  font-size: 32px;
+  font-weight: 600;
+}
